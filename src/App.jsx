@@ -27,7 +27,7 @@ function deletTask(deletTaskName){
      <h1>Task Master</h1>
     <Todo addTask={addTask}/>
     <div className='toDoList'>
-      <span>To do</span>
+      <span>To do List</span>
       <ul className="list-items">
       {toDoList.map((task, Key) => (
         <Taskinput task={task} key={Key} deletTask={deletTask} toggleCheck={toggleCheck}/>

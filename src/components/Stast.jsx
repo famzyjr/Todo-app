@@ -5,7 +5,7 @@ function Stast({toDoList}) {
   return (
     <div className='stats'>
      <p className='notify'>
-        {countList ===0 ? 'Yoy got everything Ready to go ✈️' : `You have ${countList} items on your list.`}
+        {countList ===0 ? 'You got everything Ready to go ✈️' : `You have ${countList} items on your list.`}
      </p>
     </div>
   )
